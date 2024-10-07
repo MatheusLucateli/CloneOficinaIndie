@@ -1,0 +1,20 @@
+.logo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 50px;           /* Para centralizar verticalmente na tela toda */
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+#carouselExampleCaptions {
+    max-width: 600px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Centraliza o carrossel */
+}
+
+#carouselExampleCaptions .carousel-item img {
+    width: 100%; /* Faz com que as imagens ocupem toda a largura do contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
